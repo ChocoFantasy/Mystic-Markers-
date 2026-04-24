@@ -9,7 +9,6 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -38,6 +37,7 @@
     "react-scroll-motion": "^0.3.3",
     "scrolltrigger": "^1.0.1",
     "smoove": "^1.2.0",
+    "sweetalert2": "^11.26.20",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
